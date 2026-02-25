@@ -1,0 +1,13 @@
+/vendor/
+/node_modules/
+/.phpunit.cache/
+/.idea/
+/.vscode/
+/.claude/
+.DS_Store
+composer.lock
+phpunit.xml.dist
+.env
+.env.testing
+tests/fixtures/compiled/
+tests/fixtures/blaze/
