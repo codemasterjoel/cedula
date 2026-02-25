@@ -7,5 +7,5 @@ Route::view('/', 'welcome')->name('home');
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::view('dashboard', 'dashboard')->name('dashboard');
 });
-
+Route::livewire('/consulta', 'pages::consulta.index')->name('consulta');
 require __DIR__.'/settings.php';
